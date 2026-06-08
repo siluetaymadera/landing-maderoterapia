@@ -474,6 +474,25 @@
     .authority-box { padding: 36px 20px; }
   }
 </style>
+
+  <!-- Meta Pixel -->
+  <script>
+  !function(f,b,e,v,n,t,s)
+  {if(f.fbq)return;n=f.fbq=function(){n.callMethod?
+  n.callMethod.apply(n,arguments):n.queue.push(arguments)};
+  if(!f._fbq)f._fbq=n;n.push=n;n.loaded=!0;n.version='2.0';
+  n.queue=[];t=b.createElement(e);t.async=!0;
+  t.src=v;s=b.getElementsByTagName(e)[0];
+  s.parentNode.insertBefore(t,s)}(window, document,'script',
+  'https://connect.facebook.net/en_US/fbevents.js');
+  fbq('init', '1423047338402410');
+  fbq('track', 'PageView');
+  </script>
+  <noscript>
+    <img height="1" width="1" style="display:none"
+    src="https://www.facebook.com/tr?id=1423047338402410&ev=PageView&noscript=1"/>
+  </noscript>
+  <!-- Fin Meta Pixel -->
 </head>
 <body>
 
@@ -494,7 +513,7 @@
     <p class="hero-sub">
       Formación práctica con certificación incluida. Aplica las técnicas desde el primer día y empieza a generar ingresos en el área estética.
     </p>
-    <a href="https://wa.me/56931227072?text=Hola%2C%20quiero%20reservar%20mi%20cupo%20para%20la%20Master%20Class%20de%20Maderoterapia%20en%20Caracas" class="cta-btn pulse" target="_blank" rel="noopener">
+    <a onclick="fbq('track','Lead');" href="https://wa.me/56931227072?text=Hola%2C%20quiero%20reservar%20mi%20cupo%20para%20la%20Master%20Class%20de%20Maderoterapia%20en%20Caracas" class="cta-btn pulse" target="_blank" rel="noopener">
       Quiero asegurar mi cupo ahora
     </a>
     <p class="hero-reserve-note">✦ Reserva con solo 20 USDT · Cupos limitados</p>
@@ -710,7 +729,7 @@
         <p class="pricing-reserve-sub">Bloquea tu cupo ahora. Saldo restante: 95 USDT — se completa 1 día antes de la formación.</p>
       </div>
 
-      <a href="https://wa.me/56931227072?text=Hola%2C%20quiero%20reservar%20mi%20cupo%20para%20la%20Master%20Class%20de%20Maderoterapia%20en%20Caracas" class="cta-btn" target="_blank" rel="noopener" style="width:100%; text-align:center; display:block;">
+      <a onclick="fbq('track','Lead');" href="https://wa.me/56931227072?text=Hola%2C%20quiero%20reservar%20mi%20cupo%20para%20la%20Master%20Class%20de%20Maderoterapia%20en%20Caracas" class="cta-btn" target="_blank" rel="noopener" style="width:100%; text-align:center; display:block;">
         Reservar con 20 USDT ahora
       </a>
 
@@ -751,7 +770,7 @@
     <p class="section-body" style="margin-bottom:2rem; color:var(--white-muted);">
       Reserva tu cupo en la Master Class de Maderoterapia en Caracas y empieza a construir una habilidad que genera ingresos reales.
     </p>
-    <a href="https://wa.me/56931227072?text=Hola%2C%20quiero%20reservar%20mi%20cupo%20para%20la%20Master%20Class%20de%20Maderoterapia%20en%20Caracas" class="cta-btn pulse" target="_blank" rel="noopener">
+    <a onclick="fbq('track','Lead');" href="https://wa.me/56931227072?text=Hola%2C%20quiero%20reservar%20mi%20cupo%20para%20la%20Master%20Class%20de%20Maderoterapia%20en%20Caracas" class="cta-btn pulse" target="_blank" rel="noopener">
       Quiero asegurar mi cupo ahora
     </a>
     <p class="final-reserve-note">✦ Reserva con solo 20 USDT · Pago completo el día de la formación · Certificación incluida</p>
